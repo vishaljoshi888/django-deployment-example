@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "ravi_app/base.html" %}
+{% block body_block %}
+    <h2>Hi i am Index</h2>
+    <h2>This is example of template inheritance two</h2>
+    <h3>{{ name|cut:2 }}
+        {{ number }}
+    </h3>
+    {% endblock %}
